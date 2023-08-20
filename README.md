@@ -1,10 +1,6 @@
 # Toy_Problems
 
-<p align="center" style={height: 80px; width:80px}>
- ![images](https://github.com/Arnold-Mwangi/Toy_Problems/assets/78974739/a3fed5e5-6333-4022-bbd5-e020c24952e0)
-
-</p>
-
+![images](https://github.com/Arnold-Mwangi/Toy_Problems/assets/78974739/fb8447d9-1ba1-46b3-b42c-66ac408578b3)
 
 ## Code Challenges
 
