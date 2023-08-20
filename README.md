@@ -1,8 +1,8 @@
 # Toy_Problems
 
-<p align="center">
-  <img src="![images](https://github.com/Arnold-Mwangi/Toy_Problems/assets/78974739/10bf6962-a264-4437-aef0-48054a8fdb46)
-" alt="Logo" width="80" height="80">
+<p align="center" style={height: 80px; width:80px}>
+ ![images](https://github.com/Arnold-Mwangi/Toy_Problems/assets/78974739/a3fed5e5-6333-4022-bbd5-e020c24952e0)
+
 </p>
 
 
