@@ -34,7 +34,7 @@ The `highest_consonant_string` function calculates the value of each substring c
 
 1. Clone this repository to your local machine.
 2. Navigate to the appropriate challenge directory.
-3. Run the Python script corresponding to the challenge (e.g., `challenge1.py` for Challenge 1).
+3. Run the Python script corresponding to the challenge (e.g., `app.py` for Challenge 1).
 4. Follow the prompt to input the required data.
 5. The script will display the output based on the input provided.
 
