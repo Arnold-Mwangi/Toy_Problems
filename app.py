@@ -10,32 +10,32 @@ Testcases
 
 '''
 
-# def convert_to_24_hour_time(time_in_hours):
-#     #split time
-#     splited_time = time_in_hours.split()
-#     period = splited_time[1]
+def convert_to_24_hour_time(time_in_hours):
+    #split time
+    splited_time = time_in_hours.split()
+    period = splited_time[1]
 
-#     splited_mins_hrs = splited_time[0].split(":")
-#     hour = int(splited_mins_hrs[0])
-#     minute = int(splited_mins_hrs[1])
+    splited_mins_hrs = splited_time[0].split(":")
+    hour = int(splited_mins_hrs[0])
+    minute = int(splited_mins_hrs[1])
 
-#     #check if its midnight/midday
-#     if period.lower() == 'pm' and hour !=12:
-#         hour +=12
-#     elif period.lower() == 'am' and hour ==12:
-#         hour = 0
-#     elif period.lower() == 'am' and hour != 12:
-#         hour = hour
+    #check if its midnight/midday
+    if period.lower() == 'pm' and hour !=12:
+        hour +=12
+    elif period.lower() == 'am' and hour ==12:
+        hour = 0
+    elif period.lower() == 'am' and hour != 12:
+        hour = hour
 
-#     #add zeros to hours and minutes if user didnt pass one
-#     hour_str = str(hour).zfill(2)
+    #add zeros to hours and minutes if user didnt pass one
+    hour_str = str(hour).zfill(2)
 
-#     minute_str = str(minute).zfill(2)
+    minute_str = str(minute).zfill(2)
 
-#     return hour_str + minute_str + "hrs"
+    return hour_str + minute_str + "hrs"
 
-# time_input = input("Enter time in 12-hour format (e.g.. 4:30 pm): ")
-# print(f"Time in 24-hour format: {convert_to_24_hour_time(time_input)}")
+time_input = input("Enter time in 12-hour format (e.g.. 4:30 pm): ")
+print(f"Time in 24-hour format: {convert_to_24_hour_time(time_input)}")
 
 
 # Challenge 2: Two numbers are positive.
@@ -48,18 +48,24 @@ Otherwise return False
 
 '''
 
-# def positive_checker(a, b,c):
-#     positive_numbers = (sum([1 for x in [a, b,c] if x >0]))
+def positive_checker(a, b,c):
+    positive_numbers = (sum([1 for x in [a, b,c] if x >0]))
 
-#     print (positive_numbers == 2)
+    print (positive_numbers == 2)
 
-# positive_checker(0, 2, -7)
+positive_checker(0, 2, -7)
 
 
 
 # Challenge 3: Consonant value
 '''
 pseudocode: 
+#define a function that takes in a string as input.
+define constants with corresponding values  (a=1, b=2, ..., z=26).
+#Calculate the highest value of a constant substring containing only constant characters(non vowels).
+Return the string with its highest substring value
+
+
 
 '''
 def highest_consonant_string(str):
@@ -73,7 +79,7 @@ def highest_consonant_string(str):
         return sum(consonant_values[char] for char in substring)
     
     consonant_substrings = [substring for substring in str.split(vowels) if substring != ""]
-    
+
     highest_value = max(calculate_value(substring) for substring in consonant_substrings)
     
     return highest_value
